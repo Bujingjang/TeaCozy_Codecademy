@@ -13,7 +13,28 @@
     display: fixed;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: inline-flex;
+    align-items: center;
+}
+
 .header .logo img {
     height: 50px;
     padding-left: 10px;
+}
+
+.header .menus {
+    list-style: none;
+    display: inline-flex;
+}
+
+.header .menus li{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 10px;
 }
