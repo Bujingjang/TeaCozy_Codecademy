@@ -38,3 +38,18 @@
     text-decoration: underline;
     padding: 0 10px;
 }
+
+.introduction {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*zlge4a*_ga*NzcwNjA2NjQ2MS4xNjU2Mzg0MzUy*_ga_3LRZM6TM9L*MTY1ODQwNDQ4NC4xNy4xLjE2NTg0MDQ0OTQuNTA.");
+}
+
+.introduction .description {
+    width: 100%;
+    opacity: 1;
+}
+
