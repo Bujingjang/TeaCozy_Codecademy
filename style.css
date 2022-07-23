@@ -53,3 +53,31 @@
     opacity: 1;
 }
 
+.tea-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-content .tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-content .tea-container .card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tea-content .tea-container .card img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations-content {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*6jcgjm*_ga*NzcwNjA2NjQ2MS4xNjU2Mzg0MzUy*_ga_3LRZM6TM9L*MTY1ODU3OTQ0MS4xOS4xLjE2NTg1ODA5NTIuNTc.");
+}
