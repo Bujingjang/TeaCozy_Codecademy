@@ -74,10 +74,38 @@
     width: 300px;
 }
 
-.locations-content {
+.location-content {
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    height: 500px;
+    align-items: center;
     margin: 0 auto;
+    height: 700px;
+    width: 1200px;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*6jcgjm*_ga*NzcwNjA2NjQ2MS4xNjU2Mzg0MzUy*_ga_3LRZM6TM9L*MTY1ODU3OTQ0MS4xOS4xLjE2NTg1ODA5NTIuNTc.");
+}
+
+.location-content h2 {
+    background: rgba(204, 204, 204, 0);
+    margin-bottom: 15px;
+}
+
+.location-content .location-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background: rgba(204, 204, 204, 0);
+}
+
+.location-content .location-container .card {
+    width: 300px;
+    padding: 10px 20px;
+    background: rgba(204, 204, 204, 0);
+}
+
+.location-content .location-container .card .card-container {
+    padding: 10px 20px;
+    opacity: 1;
 }
